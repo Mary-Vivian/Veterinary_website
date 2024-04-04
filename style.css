@@ -94,6 +94,10 @@ body{
     padding-left: 20%;
     padding-right: 20%;
 }
+.iconfooter{
+    width: 15%;
+    height: 15%;
+ }
 @media screen and (max-width:475px) and (min-width:375px){
     #topnav{
     flex-wrap: wrap;
@@ -174,6 +178,11 @@ body{
                   flex-wrap: wrap;
                     gap: 10%;
             
+            }
+
+            .iconfooter{
+               width: 5px;
+               height: 5px;
             }
         
 
