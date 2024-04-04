@@ -20,7 +20,7 @@
 }
 #emoji{
     position: absolute;
-    left: 55%;
+    left: 45%;
 
 }
 .icons{
@@ -64,6 +64,7 @@
 #subscribe{
    text-align: center;
     gap: 10%;
+    background-color: aqua;
 }
 #docsection{
     display: inline-flex;
@@ -95,8 +96,8 @@ body{
     padding-right: 20%;
 }
 .iconfooter{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
  }
 @media screen and (max-width:475px) and (min-width:375px){
     #topnav{
@@ -181,8 +182,12 @@ body{
             }
 
             .iconfooter{
-               width: 5px;
-               height: 5px;
+               width: 40%;
+               height: 40%;
+            }
+            button{
+                width: 15px;
+                height: 15px;
             }
         
 
@@ -265,9 +270,180 @@ body{
             width: 100%;
             height: 50%;}
 
-#footer{
+        #footer{
             flex-wrap: wrap;
         }
         
 
 }
+@media screen and (max-width:800px)and (min-width:600px) {
+    
+
+    #topnav{
+        flex-wrap: wrap;
+        gap: 0px;
+            flex-direction: row;
+        }
+        #pupy{
+            border-radius: 70%;   
+           
+        }
+        #firstcolumn{
+            flex-wrap: wrap;
+           
+        }
+        #img1{
+          object-fit: cover;
+            border-radius: 50%;
+            width: 70%;
+            height: 90%;
+          
+        }
+        #emoji{
+            position: absolute;
+            left: 55%;}
+            .icons{
+                width: 50%;
+            }
+            #center{
+               
+                flex-wrap: wrap;
+                gap: 5%;
+                
+            }
+            #Assistant{
+               flex-wrap: wrap;
+            }
+            #surgical{
+               flex-wrap: wrap;
+                
+            }
+            .helena{
+               border-radius: 100px;
+               width: 50px;
+               height: 5opx;
+             
+                
+            }
+            #best{
+               flex-wrap: wrap;
+            }
+            #patients{
+                flex-wrap: wrap;
+                
+            }
+            #interests{
+               flex-wrap: wrap;
+                gap: 10%;
+            }
+            #subscribe{
+               text-align: center;
+                gap: 10%;
+            }
+            #docsection{
+             flex-wrap: wrap;
+                gap: 10%;
+            }
+            .docs{
+                width: 80%;
+                height:50%;
+                object-fit: contain;
+            
+            }
+            .doc{
+                width: 100%;
+                height: 50%;}
+    
+            #footer{
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width:1000px)and (min-width:800px) {
+    
+
+            #topnav{
+                flex-wrap: wrap;
+                gap: 0px;
+                    flex-direction: row;
+                }
+                #pupy{
+                    border-radius: 70%;   
+                   
+                }
+                #firstcolumn{
+                    flex-wrap: wrap;
+                   
+                }
+                #img1{
+                  object-fit: cover;
+                    border-radius: 50%;
+                    width: 70%;
+                    height: 90%;
+                  
+                }
+                #emoji{
+                    position: absolute;
+                    left: 55%;}
+                    .icons{
+                        width: 50%;
+                    }
+                    #center{
+                       
+                        flex-wrap: wrap;
+                        gap: 5%;
+                        
+                    }
+                    #Assistant{
+                       flex-wrap: wrap;
+                    }
+                    #surgical{
+                       flex-wrap: wrap;
+                        
+                    }
+                    .helena{
+                       border-radius: 100px;
+                       width: 50px;
+                       height: 5opx;
+                     
+                        
+                    }
+                    #best{
+                       flex-wrap: wrap;
+                    }
+                    #patients{
+                        flex-wrap: wrap;
+                        
+                    }
+                    #interests{
+                       flex-wrap: wrap;
+                        gap: 10%;
+                    }
+                    #subscribe{
+                       text-align: center;
+                        gap: 10%;
+                    }
+                    #docsection{
+                     flex-wrap: wrap;
+                        gap: 10%;
+                    }
+                    .docs{
+                        width: 80%;
+                        height:50%;
+                        object-fit: contain;
+                    
+                    }
+                    .doc{
+                        width: 100%;
+                        height: 50%;}
+            
+                    #footer{
+                        flex-wrap: wrap;
+                    }
+                    body{
+                        font-size: xx-large;
+                    }
+                    button{
+                        width: 15%;
+                        height: 15%;
+                    }
+                }
